@@ -3422,7 +3422,7 @@
 	)
 	(text "Power up sequencing and power monitor"
 		(exclude_from_sim no)
-		(at 68.58 87.63 0)
+		(at 140.97 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3623,12 +3623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50ac361c-3bcf-43bc-b8f7-1cc57b00521a")
-	)
-	(junction
-		(at 160.02 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5315b6d4-961f-4ade-b37c-d05215f45db0")
 	)
 	(junction
 		(at 370.84 123.19)
@@ -4036,6 +4030,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 133.35) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3e4733-2b3c-440e-914c-1fec93da76b8")
+	)
+	(wire
+		(pts
 			(xy 293.37 134.62) (xy 304.8 134.62)
 		)
 		(stroke
@@ -4246,16 +4250,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 171.45) (xy 160.02 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180759d4-f5bc-465b-a70d-b96ee2c87f10")
-	)
-	(wire
-		(pts
 			(xy 304.8 144.78) (xy 326.39 144.78)
 		)
 		(stroke
@@ -4436,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 168.91) (xy 99.06 168.91)
+			(xy 86.36 168.91) (xy 99.06 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4676,7 +4670,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 140.97) (xy 218.44 143.51)
+			(xy 218.44 146.05) (xy 218.44 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +4900,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 168.91) (xy 154.94 168.91)
+			(xy 154.94 168.91) (xy 229.87 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5636,16 +5630,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 176.53) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e319e00-a1d3-4c6d-80b2-2ef84365d25f")
-	)
-	(wire
-		(pts
 			(xy 226.06 208.28) (xy 227.33 208.28)
 		)
 		(stroke
@@ -5736,6 +5720,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 168.91) (xy 229.87 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88242a4d-41f5-4f51-a92a-b0b260eefe15")
+	)
+	(wire
+		(pts
 			(xy 119.38 133.35) (xy 119.38 123.19)
 		)
 		(stroke
@@ -5753,6 +5747,16 @@
 			(type default)
 		)
 		(uuid "89919684-d1ca-418b-9a60-70c3cf0bf0ac")
+	)
+	(wire
+		(pts
+			(xy 218.44 134.62) (xy 218.44 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89d213b8-28cd-42d2-ba3e-fb53766c6770")
 	)
 	(wire
 		(pts
@@ -5916,7 +5920,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 218.44 133.35)
+			(xy 218.44 140.97) (xy 218.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6233,16 +6237,6 @@
 			(type default)
 		)
 		(uuid "a737b22f-0587-4af8-8c61-d3d9feb26506")
-	)
-	(wire
-		(pts
-			(xy 160.02 184.15) (xy 160.02 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80097a6-19b2-4df9-ae6b-b5c3bdff5777")
 	)
 	(wire
 		(pts
@@ -6886,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 148.59) (xy 218.44 152.4)
+			(xy 218.44 153.67) (xy 218.44 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7036,16 +7030,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 160.02) (xy 160.02 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e20678ce-a31c-426f-8506-75501f9ef871")
-	)
-	(wire
-		(pts
 			(xy 219.71 264.16) (xy 219.71 267.97)
 		)
 		(stroke
@@ -7123,16 +7107,6 @@
 			(type default)
 		)
 		(uuid "e7ab0cbb-1bf7-4e87-8639-533e89444129")
-	)
-	(wire
-		(pts
-			(xy 160.02 149.86) (xy 160.02 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eac1e3bf-e4ac-452c-8026-0eaa38e3d89d")
 	)
 	(wire
 		(pts
@@ -7405,7 +7379,7 @@
 		(uuid "04b84f5c-cb2c-40be-93f0-b417f6d8bca2")
 	)
 	(label "+4.5V_N12"
-		(at 90.17 168.91 0)
+		(at 86.36 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7683,16 +7657,6 @@
 			(justify left bottom)
 		)
 		(uuid "5899fedb-b51d-49bc-bf19-57e883301bab")
-	)
-	(label "+4.5V_N12"
-		(at 160.02 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c763db3-2688-47f3-811b-dd999d73ca18")
 	)
 	(label "+4.5V_N12"
 		(at 99.06 248.92 0)
@@ -8254,7 +8218,7 @@
 		(dnp no)
 		(uuid "008c0f17-f30a-4f05-856d-10c5c204652d")
 		(property "Reference" "R114"
-			(at 100.33 175.26 0)
+			(at 102.87 171.45 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8263,7 +8227,7 @@
 			)
 		)
 		(property "Value" "47.5"
-			(at 102.87 175.26 0)
+			(at 102.87 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,72 +8341,6 @@
 			(project "HP_2116_Logic_Regulator"
 				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
 					(reference "R95")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "088b9258-3744-4202-978e-5eb19acc24a8")
-		(property "Reference" "#PWR019"
-			(at 160.02 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbe38809-93cc-4770-a511-e260a80ab909")
-		)
-		(instances
-			(project "HP_2116_Logic_Regulator"
-				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8701,7 +8599,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 177.8 139.6999 0)
 			(effects
 				(font
@@ -10372,7 +10270,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 151.13 130.81 90)
 			(effects
 				(font
@@ -10441,7 +10339,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 91.44 139.6999 0)
 			(effects
 				(font
@@ -10649,7 +10547,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 149.86 139.6999 0)
 			(effects
 				(font
@@ -10976,94 +10874,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 160.02 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31d2a0ea-b491-4beb-a752-c5c2273c48e2")
-		(property "Reference" "D4"
-			(at 162.56 180.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 162.56 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2acaa136-6b52-49d0-aa77-d26c97d87f63")
-		)
-		(pin "2"
-			(uuid "73311b9f-0ff6-49cc-85aa-7b1f6d0398a3")
-		)
-		(instances
-			(project "HP_2116_Logic_Regulator"
-				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:PNP")
 		(at 260.35 149.86 0)
 		(mirror x)
@@ -11172,10 +10982,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "389054bc-918c-4cb9-9e27-9bb8ae7def71")
 		(property "Reference" "D5"
-			(at 116.84 172.7199 90)
+			(at 109.22 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11183,8 +10992,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
-			(at 116.84 175.2599 90)
+		(property "Value" "1N4148"
+			(at 106.68 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11844,7 +11653,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 137.16 160.0199 0)
 			(effects
 				(font
@@ -12217,7 +12026,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 93.98 130.81 90)
 			(effects
 				(font
@@ -12285,7 +12094,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 179.07 130.81 90)
 			(effects
 				(font
@@ -12654,7 +12463,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "220"
 			(at 186.69 154.9399 0)
 			(effects
 				(font
@@ -12724,7 +12533,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 180.34 123.1899 0)
 			(effects
 				(font
@@ -13430,7 +13239,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 123.19 130.81 90)
 			(effects
 				(font
@@ -13722,7 +13531,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 220.98 118.1099 0)
 			(effects
 				(font
@@ -13861,76 +13670,6 @@
 			(project "HP_2116_Logic_Regulator"
 				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "777152d0-6d60-4129-a6b6-9e0585242bc5")
-		(property "Reference" "R11"
-			(at 162.56 156.2099 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 162.56 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f44dae0d-5543-43d2-bfbb-1247a993c8f4")
-		)
-		(pin "1"
-			(uuid "ea5caf34-609f-4170-86b5-ea0c83f9121f")
-		)
-		(instances
-			(project "HP_2116_Logic_Regulator"
-				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -14307,7 +14046,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 218.44 138.43 90)
+		(at 218.44 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14316,7 +14055,7 @@
 		(fields_autoplaced yes)
 		(uuid "7df385f4-dda3-41bd-8068-ebe8cbbdaa5e")
 		(property "Reference" "D1"
-			(at 220.98 137.1599 90)
+			(at 220.98 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,8 +14063,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
-			(at 220.98 139.6999 90)
+		(property "Value" "1N4148"
+			(at 220.98 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14334,7 +14073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 138.43 90)
+			(at 218.44 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +14082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 138.43 90)
+			(at 218.44 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +14091,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 218.44 138.43 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +14100,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 218.44 138.43 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,7 +14109,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 138.43 0)
+			(at 218.44 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14547,7 +14286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "470"
 			(at 242.57 172.7199 0)
 			(effects
 				(font
@@ -15035,6 +14774,94 @@
 			(project "HP_2116_Logic_Regulator"
 				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 218.44 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89ed35c9-26bc-44ff-86a3-49b31e87d353")
+		(property "Reference" "D6"
+			(at 220.98 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 220.98 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36579033-1a22-4fd5-bcc9-f60bd5a935ba")
+		)
+		(pin "2"
+			(uuid "f1704f72-83ce-4cd0-aacb-f7e6889596c2")
+		)
+		(instances
+			(project "HP_2116_Logic_Regulator"
+				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15959,7 +15786,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0fb6c42-550e-4455-8a7f-ee396aa258bc")
 		(property "Reference" "R12"
 			(at 123.19 163.83 90)
@@ -15969,7 +15795,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "4.7k"
 			(at 123.19 166.37 90)
 			(effects
 				(font
@@ -16038,7 +15864,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 121.92 175.2599 0)
 			(effects
 				(font
@@ -16756,7 +16582,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 152.4 0)
+		(at 218.44 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16765,7 +16591,7 @@
 		(fields_autoplaced yes)
 		(uuid "c28d5d52-c87c-4db5-90c4-217c46075f6a")
 		(property "Reference" "#PWR09"
-			(at 218.44 158.75 0)
+			(at 218.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16774,7 +16600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 157.48 0)
+			(at 218.44 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16782,7 +16608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 152.4 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +16617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 152.4 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16800,7 +16626,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 152.4 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17484,7 +17310,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "2.2k"
 			(at 121.92 138.4299 0)
 			(effects
 				(font
@@ -17706,7 +17532,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 218.44 146.05 90)
+		(at 218.44 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17715,7 +17541,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc81ea62-fb79-4770-ba4f-132dcb311aa8")
 		(property "Reference" "D2"
-			(at 220.98 144.7799 90)
+			(at 220.98 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17723,8 +17549,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Small"
-			(at 220.98 147.3199 90)
+		(property "Value" "1N4148"
+			(at 220.98 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,7 +17559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 146.05 90)
+			(at 218.44 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17742,7 +17568,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 146.05 90)
+			(at 218.44 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17751,7 +17577,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 218.44 146.05 0)
+			(at 218.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17760,7 +17586,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 218.44 146.05 0)
+			(at 218.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17769,7 +17595,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 146.05 0)
+			(at 218.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +17863,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "220"
 			(at 242.57 119.3799 0)
 			(effects
 				(font
@@ -18811,94 +18637,6 @@
 			(project "HP_2116_Logic_Regulator"
 				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
 					(reference "Q36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 160.02 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1faa493-01c6-40ab-bd08-847bef4a6aeb")
-		(property "Reference" "D3"
-			(at 162.56 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 162.56 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad99ed22-ded1-42f6-8e03-7b9f2e9d263c")
-		)
-		(pin "2"
-			(uuid "660fc72a-61de-4597-8452-a33de779a6e8")
-		)
-		(instances
-			(project "HP_2116_Logic_Regulator"
-				(path "/1607dfcf-8ebf-46fa-bed0-a5f4d6e8e03c"
-					(reference "D3")
 					(unit 1)
 				)
 			)
