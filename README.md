@@ -35,3 +35,14 @@ Green is the simulated +32V. Delayed and then goes out after about 2 seconds. Bl
 In the picture below green is the signal to the -12V supply and the blue is the 4.5V power line.
 
 ![Waveforms first few milliseconds](Power_monitor_waveform_first_ms.png)
+
+Here is the schematic for the logic regulator.
+
+![Logic regulator schematic](HP_2116_Logic_Regulator/HP_2116_Logic_Regulator.svg)
+
+And this is the memory regulator schematic.
+
+![Memory regulator schematic](HP_2116_Memory_Regulator/HP_2116_Memory_Regulator.svg)
+
+
+At this point I have started to procure components. I managed to find the 2N1304 and 2N1305 germanium transistors from a vendor in the UK and the same company also had the 2N4044 matched pairs so now all the small resistors, zeners and caps need to be ordered and then I can start laying out the PCB. Care has to be taken so there is room for the heatsinks on the TO5. Both boards have a TO66 power transistor where the exact match is hard to find. I think a NPN TIP41 should be just fine since this just a simple emitter follower output stage to increase the drive power.
